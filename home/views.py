@@ -20,3 +20,7 @@ def travel(request):
 
 def school(request):
     return render(request, "home/school.html")
+
+
+def penguins(request):
+    return render(request, "home/penguins.html")

@@ -96,19 +96,16 @@ hr {
     width: 50%;
     height: 0;
     overflow: hidden;
-    margin: auto;
 }
 
 .image-container {
     width: 50%;
     position: absolute;
-    margin: auto;
     cursor: pointer;
 }
 
 .image-container img {
     width: 100%;
-    padding-bottom: 100%;
     position: absolute;
 }
 
@@ -161,4 +158,10 @@ div.life-container {
     vertical-align: middle;
     top: 45%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.life-pic {
+    border-radius: 15px;
+    width: 50%;
+    position: absolute;
 }

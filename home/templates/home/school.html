@@ -1,4 +1,39 @@
 {% extends 'home/base.html' %} {% load static %} {% block content %}
 <br>
-<h3 class="life-header">Here's my experience at UT Austin!</h3>
-{% endblock %}
+<h3 class="life-header">Here's my experience while at school!</h3>
+<br>
+<div class="life-container" style="padding-bottom: 50%;">
+    <h3 class="life-description" style="right: 15%;">Grad Pic</h3>
+    <div><img class="life-pic" src="{% static 'home/images/graduation.jpeg'%}" style="border-radius: 15px;margin-left: 10%;"></div>
+</div>
+<br>
+<div class="life-container" style="padding-bottom: 50%;">
+    <h3 class="life-description" style="left: 15%;">Tower</h3>
+    <div><img class="life-pic" src="{% static 'home/images/tower.jpeg'%}" style="border-radius: 15px;right: 10%;"></div>
+</div>
+<br>
+<div class="life-container" style="padding-bottom: 50%;">
+    <h3 class="life-description" style="right: 15%;">Banger's</h3>
+    <div><img class="life-pic" src="{% static 'home/images/bangers.jpg'%}" style="border-radius: 15px;margin-left: 10%;"></div>
+</div>
+<br>
+<div class="life-container" style="padding-bottom: 50%;">
+    <h3 class="life-description" style="left: 15%;">Moore<br>Chiller</h3>
+    <div><img class="life-pic" src="{% static 'home/images/moore_chiller.jpeg'%}" style="border-radius: 15px;right: 10%;"></div>
+</div>
+<br>
+<div class="life-container" style="padding-bottom: 50%;">
+    <h3 class="life-description" style="right: 15%;">Big 12<br>Swim</h3>
+    <div><img class="life-pic" src="{% static 'home/images/big_12_swimming.jpeg'%}" style="border-radius: 15px;left: 10%;"></div>
+</div>
+<br>
+<div class="life-container" style="padding-bottom: 50%;">
+    <h3 class="life-description" style="left: 15%;">Winter<br>Park</h3>
+    <div><img class="life-pic" src="{% static 'home/images/winter_park.jpeg'%}" style="border-radius: 15px;right: 10%;"></div>
+</div>
+<br>
+<div class="life-container" style="padding-bottom: 50%;">
+    <h3 class="life-description" style="right: 15%;">Hiking</h3>
+    <div><img class="life-pic" src="{% static 'home/images/austin_hiking.jpeg'%}" style="border-radius: 15px;left: 10%;"></div>
+</div>
+<br> {% endblock %}
