@@ -14,9 +14,9 @@ def career(request):
     return render(request, "home/career.html")
 
 
-def life(request):
-    return render(request, "home/life.html")
+def travel(request):
+    return render(request, "home/travel.html")
 
 
-def contact(request):
-    return render(request, "home/contact.html")
+def school(request):
+    return render(request, "home/school.html")
