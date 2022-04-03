@@ -1,5 +1,280 @@
 {% extends 'home/base.html' %}
 
+{% load static %}
+
 {% block content %}
-<p>Career Page</p>
+<h1>About my career</h1>
+<p class="summary">I am a software engineer with a focus in backend engineering!<br>
+    I am currently an engineer at <a href="https://akasa.com/" target="_blank">AKASA</a>,
+    and I have previously worked at <a href="https://www.tryklarity.com/" target="_blank">Klarity</a>
+    and <a href="https://www.vmware.com/" target="_blank">VMware</a>.
+</p>
+<h2 class="resume-header"><strong>Skills</strong></h2>
+<ul class="bullet-points">
+    <li><strong>Languages:</strong>
+        <a href="https://www.python.org/" target="_blank">
+            <img src="{% static 'home/images/python.png'%}" class="skill-icon">
+            <span class="tooltiptext">Python<br>Proficiency: Advanced</span>
+        </a>
+        <a href="https://www.oracle.com/java/technologies/java8.html" target="_blank">
+            <img src="{% static 'home/images/java.png'%}" class="skill-icon">
+            <span class="tooltiptext">Java<br>Proficiency: Advanced</span>
+        </a>
+        <a href="https://www.cprogramming.com/" target="_blank">
+            <img src="{% static 'home/images/c.png'%}" class="skill-icon">
+            <span class="tooltiptext">C Language<br>Proficiency: Intermediate</span>
+        </a>
+        <a href="https://www.cplusplus.com/" target="_blank">
+            <img src="{% static 'home/images/cpp.png'%}" class="skill-icon">
+            <span class="tooltiptext">C++<br>Proficiency: Intermediate</span>
+        </a>
+        <a href="https://www.typescriptlang.org/" target="_blank">
+            <img src="{% static 'home/images/typescript.png'%}" class="skill-icon">
+            <span class="tooltiptext">TypeScript<br>Proficiency: Novice</span>
+        </a>
+        <a href="https://www.swift.com/" target="_blank">
+            <img src="{% static 'home/images/swift.png'%}" class="skill-icon">
+            <span class="tooltiptext">Swift<br>Proficiency: Novice</span>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">
+            <img src="{% static 'home/images/html.png'%}" class="skill-icon">
+            <span class="tooltiptext">HTML<br>Proficiency: Intermediate</span>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">
+            <img src="{% static 'home/images/css.png'%}" class="skill-icon">
+            <span class="tooltiptext">CSS<br>Proficiency: Intermediate</span>
+        </a>
+    </li>
+    <li><strong>Technologies:</strong>
+        <a href="https://www.mongodb.com/" target="_blank">
+            <img src="{% static 'home/images/mongodb.png'%}" class="skill-icon">
+            <span class="tooltiptext">MongoDB<br>Proficiency: Advanced</span>
+        </a>
+        <a href="https://www.postgresql.org/" target="_blank">
+            <img src="{% static 'home/images/postgresql.png'%}" class="skill-icon">
+            <span class="tooltiptext">PostgresQL<br>Proficiency: Advanced</span>
+        </a>
+        <a href="https://www.docker.com/" target="_blank">
+            <img src="{% static 'home/images/docker.png'%}" class="skill-icon">
+            <span class="tooltiptext">Docker<br>Proficiency: Advanced</span>
+        </a>
+        <a href="https://kubernetes.io/" target="_blank">
+            <img src="{% static 'home/images/k8.png'%}" class="skill-icon">
+            <span class="tooltiptext">Kubernetes<br>Proficiency: Intermediate</span>
+        </a>
+        <a href="https://graphql.org/" target="_blank">
+            <img src="{% static 'home/images/graphql.png'%}" class="skill-icon">
+            <span class="tooltiptext">GraphQL<br>Proficiency: Advanced</span>
+        </a>
+        <a href="https://restfulapi.net/" target="_blank">
+            <img src="{% static 'home/images/api.png'%}" class="skill-icon">
+            <span class="tooltiptext">Rest API<br>Proficiency: Advanced</span>
+        </a>
+        <a href="https://aws.amazon.com/" target="_blank">
+            <img src="{% static 'home/images/aws.png'%}" class="skill-icon">
+            <span class="tooltiptext">AWS<br>Proficiency: Intermediate</span>
+        </a>
+        <a href="https://www.rabbitmq.com/" target="_blank">
+            <img src="{% static 'home/images/rabbitmq.png'%}" class="skill-icon">
+            <span class="tooltiptext">RabbitMQ<br>Proficiency: Intermediate</span>
+        </a>
+        <a href="https://swagger.io/" target="_blank">
+            <img src="{% static 'home/images/swagger.png'%}" class="skill-icon">
+            <span class="tooltiptext">Swagger<br>Proficiency: Novice</span>
+        </a>
+    </li>
+    <li><strong>Tools:</strong>
+        <a href="https://git-scm.com/" target="_blank">
+            <img src="{% static 'home/images/git.png'%}" class="skill-icon">
+            <span class="tooltiptext">Git<br>Proficiency: Advanced</span>
+        </a>
+        <a href="https://www.gnu.org/software/bash/" target="_blank">
+            <img src="{% static 'home/images/bash.png'%}" class="skill-icon">
+            <span class="tooltiptext">Bash<br>Proficiency: Intermediate</span>
+        </a>
+        <a href="https://www.jenkins.io//" target="_blank">
+            <img src="{% static 'home/images/jenkins.png'%}" class="skill-icon">
+            <span class="tooltiptext">Jenkins<br>Proficiency: Intermediate</span>
+        </a>
+        <a href="https://codefresh.io/" target="_blank">
+            <img src="{% static 'home/images/codefresh.jpg'%}" class="skill-icon">
+            <span class="tooltiptext">Codefresh<br>Proficiency: Intermediate</span>
+        </a>
+        <a href="https://www.perforce.com/" target="_blank">
+            <img src="{% static 'home/images/perforce.jpeg'%}" class="skill-icon">
+            <span class="tooltiptext">Perforce<br>Proficiency: Intermediate</span>
+        </a>
+        <a href="https://www.postman.com/" target="_blank">
+            <img src="{% static 'home/images/postman.png'%}" class="skill-icon">
+            <span class="tooltiptext">Postman<br>Proficiency: Advanced</span>
+        </a>
+        <a href="" target="_blank">
+            <img src="{% static 'home/images/pycharm.png'%}" class="skill-icon">
+            <span class="tooltiptext">Postman<br>Proficiency: Advanced</span>
+        </a>
+        <a href="https://www.jetbrains.com/pycharm/" target="_blank">
+            <img src="{% static 'home/images/postman.png'%}" class="skill-icon">
+            <span class="tooltiptext">Pycharm<br>Proficiency: Advanced</span>
+        </a>
+        <a href="https://code.visualstudio.com/" target="_blank">
+            <img src="{% static 'home/images/VSCode.png'%}" class="skill-icon">
+            <span class="tooltiptext">VSCode<br>Proficiency: Advanced</span>
+        </a>
+        <a href="https://www.elastic.co/kibana/" target="_blank">
+            <img src="{% static 'home/images/kibana.png'%}" class="skill-icon">
+            <span class="tooltiptext">Kibana<br>Proficiency: Intermediate</span>
+        </a>
+        <a href="https://grafana.com/" target="_blank">
+            <img src="{% static 'home/images/grafana.png'%}" class="skill-icon">
+            <span class="tooltiptext">Grafana<br>Proficiency: Novice</span>
+        </a>
+        <a href="https://www.atlassian.com/software/jira" target="_blank">
+            <img src="{% static 'home/images/jira.png'%}" class="skill-icon">
+            <span class="tooltiptext">Jira<br>Proficiency: Advanced</span>
+        </a>
+        <a href="https://www.atlassian.com/software/confluence" target="_blank">
+            <img src="{% static 'home/images/confluence.png'%}" class="skill-icon">
+            <span class="tooltiptext">Confluence<br>Proficiency: Advanced</span>
+        </a>
+        <a href="https://asana.com/" target="_blank">
+            <img src="{% static 'home/images/Asana.png'%}" class="skill-icon">
+            <span class="tooltiptext">Asana<br>Proficiency: Advanced</span>
+        </a>
+    </li>
+    <li><strong>Frameworks:</strong>
+        <a href="https://flask.palletsprojects.com/en/2.1.x/" target="_blank">
+            <img src="{% static 'home/images/flask.png'%}" class="skill-icon">
+            <span class="tooltiptext">Flask<br>Proficiency: Advanced</span>
+        </a>
+        <a href="https://graphene-python.org/" target="_blank">
+            <img src="{% static 'home/images/graphene.png'%}" class="skill-icon">
+            <span class="tooltiptext">Graphene<br>Proficiency: Advanced</span>
+        </a>
+        <a href="https://www.djangoproject.com/" target="_blank">
+            <img src="{% static 'home/images/django.png'%}" class="skill-icon">
+            <span class="tooltiptext">Django<br>Proficiency: Intermediate</span>
+        </a>
+        <a href="https://twistedmatrix.com/trac/" target="_blank">
+            <img src="{% static 'home/images/twisted.png'%}" class="skill-icon">
+            <span class="tooltiptext">Twisted<br>Proficiency: Intermediate</span>
+        </a>
+        <a href="https://spring.io/" target="_blank">
+            <img src="{% static 'home/images/spring.png'%}" class="skill-icon">
+            <span class="tooltiptext">Spring<br>Proficiency: Intermediate</span>
+        </a>
+    </li>
+</ul>
+
+<h2 class="resume-header"><strong>Work Experience</strong></h2>
+<span>
+    <p2 class="experience-detail" style="font-size:130%;"><strong>AKASA</strong><a href="https://akasa.com/"
+            target="_blank"><img src="{% static 'home/images/akasa.jpeg'%}" ,
+                style="height: 40px; width: 40px; margin-left: 5px"></a>
+        <span class="point-date">Jan 2022 -
+            Present</span>
+    </p2><br>
+    <p2 class="experience-detail"><i>Software Engineer</i> <span class="point-date">San Francisco, CA</span></p2>
+    <ul class="bullet-points">
+        <li>Automated healthcare revenue cycle operations with AKASA’s RPA, ML, and workflow tools</li>
+        <li>Pushed for better unit/integration testing and mentored junior engineers for best testing practices</li>
+    </ul>
+    <p3 class="notable-projects"><strong>Notable Projects</strong></p3>
+    <ul class="bullet-points">
+        <li class="project"><a href="ontology">Ontology Builder</a></li>
+    </ul>
+</span>
+<span>
+    <p2 class="experience-detail" style="font-size:130%;"><strong>Klarity</strong><a href="https://www.tryklarity.com/"
+            target="_blank"><img src="{% static 'home/images/klarity.jpeg'%}" ,
+                style="height: 40px; width: 40px; margin-left: 5px"></a> <span class="point-date">May 2021 -
+            Jan 2022</span></p2><br>
+    <p2 class="experience-detail"><i>Backend Engineer</i> <span class="point-date">San Francisco, CA</span></p2>
+    <ul class="bullet-points">
+        <li>Took ownership of the Python backend codebase for automating contract review and revenue recognition</li>
+        <li>Managed the MongoDB schema and GraphQL queries/mutations for Klarity’s web application’s backend service
+        </li>
+        <li>Triaged all incoming customer and internal tickets for feature development, bug reports, and custom account
+            configuration</li>
+        <li>Productized configuration of customers’ accounts into a self service feature reducing the UAT to production
+            time
+            by 80%</li>
+        <li>Helped grow the company, product, and engineering team to raise an <a
+                href="https://techcrunch.com/2022/01/24/klarity-lands-18m-to-read-scores-of-documents-so-you-dont-have-to/">$18
+                million Series A round</a></li>
+    </ul>
+</span>
+<p3 class="notable-projects"><strong>Notable Projects</strong></p3>
+<ul class="bullet-points">
+    <li class="project"><a href="cci">Customer Configuration Interface</a></li>
+    <li class="project"><a href="demo">Klarity Demo</a></li>
+    <li class="project"><a href="legacy-processing">Legacy Processing</a></li>
+</ul>
+<span>
+    <p2 class="experience-detail" style="font-size:130%;"><strong>VMware</strong><a href="https://www.vmware.com/"
+            target="_blank"><img src="{% static 'home/images/vmware.png'%}" ,
+                style="height: 40px; width: 40px; margin-left: 5px"></a> <span class="point-date">July 2020 -
+            May 2021</span></p2><br>
+    <p2 class="experience-detail"><i>Member of Technical Staff</i> <span class="point-date">Palo Alto, CA</span></p2>
+    <ul class="bullet-points">
+        <li>Implemented a backend service in Python that manages the lifecycle of VMware’s Cloud products on AWS</li>
+        <li>Rotated on call shifts and triaged all internal and external incidents on our team’s service</li>
+        <li>Integrated orchestration microservices used to configure software-defined data centers with Java Spring Boot
+        </li>
+    </ul>
+    <p3 class="notable-projects"><strong>Notable Projects</strong></p3>
+    <ul class="bullet-points">
+        <li class="project"><a href="vlcm">VMware Lifecycle Manager</a></li>
+    </ul>
+</span>
+
+<h2 class="resume-header"><strong>Personal Projects</strong></h2>
+<p class="experience-detail" style="font-size:130%;"><strong>VMC Mobile App</strong><span class="point-date">Dec
+        2020</span></p>
+<ul class="bullet-points">
+    <li>Built a VMC on AWS Android solution for customers, developers, and admins in a 3-day hackathon</li>
+    <li>Allowed users to create/delete software-defined data centers and scale up/down by integrating with VMC’s API
+        layer</li>
+    <li>Notified users when operations were finished and provided an event log history to monitor
+    </li>
+</ul>
+<p class="experience-detail" style="font-size:130%;"><strong>AutoTrader</strong><span class="point-date">Aug 2020 - Oct
+        2020</span></p>
+<ul class="bullet-points">
+    <li>Tracked fastest moving large cap stocks with Alpaca Trading APIs</li>
+    <li>Automated the breakout strategy and returned a weekly best of 18% with paper trading</li>
+</ul>
+<p class="experience-detail" style="font-size:130%;"><strong>Farmly</strong><span class="point-date">Nov 2019 - Jan
+        2020</span></2>
+<ul class="bullet-points">
+    <li>Prototyped a sustainable IoT device that collects environmental data for home gardeners to better care for their
+        plants</li>
+    <li>Provided actionable real-time insights from the health of their plants and external data in an iOS app using
+        Swift</li>
+</ul>
+<p class="experience-detail" style="font-size:130%;"><strong>Basketball Player Detection</strong><span
+        class="point-date">Nov 2019 - Dec 2019</span></p>
+<ul class="bullet-points">
+    <li>Programmed a Python script to detect players from a basketball video and map them to a 2D court image</li>
+    <li>Applied a HoG pedestrian detector in OpenCV to find the colors of each player’s jersey to differentiate teams
+    </li>
+    <li>Created a homography matrix that can map the player’s video coordinate to a 2D court image coordinate
+    </li>
+    <li><a href="https://docs.google.com/presentation/d/1dc8aUTTygWQMG8GWU7UXa6b_gT4wlaraDZnDpnYA47M/edit#slide=id.p"
+            target="_blank">Presentation
+            Slide Deck</a></li>
+</ul>
+<p class="experience-detail" style="font-size:130%;"><strong>Instagram Like Predictor</strong><span
+        class="point-date">Apr 2019 - May 2019</span></p>
+<ul class="bullet-points">
+    <li>Trained machine learning algorithms with Sci-kit Learn to predict relative popularity of Instragram Posts</li>
+    <li>Scraped features including image, caption, comments, etc... from over 1000 public Instagram Accounts
+    </li>
+    <li>Generated relevant features such as number of faces from the image using OpenCV
+    </li>
+    <li><a href="https://docs.google.com/presentation/d/1wQg_Fi9pPPPW8x7P1EYTaCaNbp0KyPxrRwAUiqWfS4Q/edit#slide=id.g58405e3eeb_0_16"
+            target="_blank">Presentation
+            Slide Deck</a></li>
+    <li><a href="https://towardsdatascience.com/predicting-the-popularity-of-instagram-posts-deeb7dc27a8f"
+            target="_blank">Towards Data Science Article</a></li>
+</ul>
 {% endblock %}
