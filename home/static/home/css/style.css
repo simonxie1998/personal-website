@@ -19,12 +19,12 @@ li {
 .resume-header {
     text-align: "left";
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left: 40px;
+    padding-left: 2%;
 }
 
 .bullet-points {
     text-align: "left";
-    padding-left: 80px;
+    padding-left: 3%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -35,14 +35,14 @@ li {
 
 .experience-detail,
 .notable-projects {
-    padding-left: 60px;
+    padding-left: 2%;
     vertical-align: top;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .point-date {
     float: right;
-    padding-right: 60px;
+    padding-right: 2%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -76,10 +76,12 @@ hr {
     margin: 0 auto !important;
 }
 
-.carousel-item {
-    width: 800px;
-    height: 800px;
+.carousel-item,
+.carousel-inner {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     vertical-align: middle;
     text-align: middle;
+    border-radius: 15px;
 }
