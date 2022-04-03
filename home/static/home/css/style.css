@@ -12,10 +12,6 @@ h3,
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-li {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 .resume-header {
     text-align: "left";
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -24,13 +20,23 @@ li {
 
 .bullet-points {
     text-align: "left";
-    padding-left: 5%;
+    padding-left: 3%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bullet-points li {
+    background: url('../images/linux.png');
+    background-repeat: no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    list-style: none;
+    padding-left: 30px;
 }
 
 .skill-icon {
     width: 40px;
     height: 40px;
+    vertical-align: top;
 }
 
 .experience-detail,
