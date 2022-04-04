@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-from .project_summaries import SUMMARIES
+from .project_summaries import *
 
 # Create your views here.
 
@@ -29,8 +29,8 @@ def penguins(request):
 def ontology(request):
     context = {
         "project_name": "Ontology Builder",
-        "project_summary_p1": SUMMARIES["ontology_p1"],
-        "project_summary_p2": SUMMARIES["ontology_p2"],
+        "project_summary_p1": ONTOLOGY_P1,
+        "project_summary_p2": ONTOLOGY_P2,
     }
     return render(request, "home/ontology.html", context)
 
@@ -38,8 +38,8 @@ def ontology(request):
 def cci(request):
     context = {
         "project_name": "Customer Configuration Interface v3",
-        "project_summary_p1": "",
-        "project_summary_p2": "",
+        "project_summary_p1": CCI_P1,
+        "project_summary_p2": CCI_P2,
     }
     return render(request, "home/project_base.html", context)
 
@@ -47,10 +47,10 @@ def cci(request):
 def klarity_demo(request):
     context = {
         "project_name": "Klarity Marketing Demo",
-        "project_summary_p1": "",
-        "project_summary_p2": "",
+        "project_summary_p1": KLARITY_DEMO_P1,
+        "project_summary_p2": KLARITY_DEMO_P2,
     }
-    return render(request, "home/project_base.html", context)
+    return render(request, "home/klarity_demo.html", context)
 
 
 def legacy_processing(request):
