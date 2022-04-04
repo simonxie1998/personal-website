@@ -25,20 +25,22 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav" style="padding-left:8%">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
+                    <li class="nav-item" style="font-family: Georgia, 'Times New Roman', Times, serif;">
                         <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="font-family: Georgia, 'Times New Roman', Times, serif;">
                         <a class="nav-link" href="{% url 'career' %}">Career</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown" style="font-family: Georgia, 'Times New Roman', Times, serif;">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Life
+                            Life
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="{% url 'travel' %}">Traveling</a></li>
-                            <li><a class="dropdown-item" href="{% url 'school' %}">School</a></li>
-                            <li><a class="dropdown-item" href="{% url 'penguins' %}">Penguins</a></li>
+                            <li class="dropdown-item"><a class="dropdown-item" href="{% url 'travel' %}">Traveling</a>
+                            </li>
+                            <li class="dropdown-item"><a class="dropdown-item" href="{% url 'school' %}">School</a></li>
+                            <li class="dropdown-item"><a class="dropdown-item" href="{% url 'penguins' %}">Penguins</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>

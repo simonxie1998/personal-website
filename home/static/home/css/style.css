@@ -5,6 +5,10 @@
     border-radius: 50%;
 }
 
+.dropdown-item {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 h1,
 h3,
 .summary {
