@@ -1,6 +1,6 @@
 SUMMARIES = {
     "ontology_p1": "For context, AKASA automates revenue cycle operation workflows with RPA and ML. Ontology is a state tracker of the bots within an EHR (Electronic Health Record), "
-    "so it keeps track of where the bot is within the application as well as how it got there. Ontoloygy also stores the navigation network graph of the configured edges and nodes "
+    "so it keeps track of where the bot is within the application as well as how it got there. Ontology also stores the navigation network graph of the configured edges and nodes "
     "allowing it to be able to find a path to certain parts of the EHR regardless of the starting point. This graph had previously been configured with yamls in the repository, so any "
     "updates to the graph will require manual configuration of the engineer. This poses 3 problems: manual configuration is error prone, it requires engineering bandwidth, there's no "
     "standardization of the yaml names/location in the repository polluting it.",
