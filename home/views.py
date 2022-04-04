@@ -56,16 +56,7 @@ def klarity_demo(request):
 def legacy_processing(request):
     context = {
         "project_name": "Legacy Processing",
-        "project_summary_p1": "",
-        "project_summary_p2": "",
-    }
-    return render(request, "home/project_base.html", context)
-
-
-def vlcm(request):
-    context = {
-        "project_name": "VMware Lifecycle Manager",
-        "project_summary_p1": "",
-        "project_summary_p2": "",
+        "project_summary_p1": LP_P1,
+        "project_summary_p2": LP_P2,
     }
     return render(request, "home/project_base.html", context)

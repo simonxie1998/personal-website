@@ -13,5 +13,4 @@ urlpatterns = [
     path("career/cci", views.cci, name="cci"),
     path("career/klarity-demo", views.klarity_demo, name="klarity-demo"),
     path("career/legacy-processing", views.legacy_processing, name="legacy-processing"),
-    path("career/vlcm", views.vlcm, name="vlcm"),
 ]
