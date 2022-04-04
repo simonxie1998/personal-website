@@ -1,0 +1,7 @@
+{% extends 'home/base.html' %} {% load static %} {% block content %}
+<br>
+<h3>{{project_name}}</h3>
+{{ block.super }}
+<p class="project-summary">{{project_summary_p1}}</p>
+<p class="project-summary">{{project_summary_p2}}</p>
+{% block project_img %} {% endblock %} {% endblock %}

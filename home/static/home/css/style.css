@@ -12,6 +12,13 @@ h3,
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.project-summary {
+    margin: 1% 5% 1% 5%;
+    text-indent: 50px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .resume-header {
     text-align: "left";
     font-family: Georgia, 'Times New Roman', Times, serif;
